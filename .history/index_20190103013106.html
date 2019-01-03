@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from getnajmul.com/theme/mascreative/index-03.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Jul 2018 18:18:17 GMT -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="App Landign Page">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="EcologyTheme">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasCreative - Creative Agency HTML Template</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Goole Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/assets/bootstrap.min.css">
+    <!-- Font awsome CSS -->
+    <link rel="stylesheet" href="css/assets/font-awesome.min.css">
+    <!-- popup-->
+    <link rel="stylesheet" href="css/assets/magnific-popup.css">
+    <!-- preloader css-->    
+    <link rel="stylesheet" href="css/assets/preloader.css">
+    <!-- main style-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+                            
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->      
+</head>
+<body class="index-03">
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<header id="header" class="header-02">
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-light bg-faded lab-navbar" style="    margin-left: 0;
+    padding-left: 0 !important;">
+        
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggle-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images/tuyologo.png" alt="logo"></a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a data-scroll href="#header" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a data-scroll href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a data-scroll href="#services" class="nav-link">Service</a></li>
+                <li class="nav-item"><a data-scroll href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a data-scroll href="#testimonial" class="nav-link">Testimonial</a></li>
+                <li class="nav-item"><a data-scroll href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar-collapse">
+            <!-- <ul class="d-flex ml-auto right_login_btn">
+                <li><a href="#" class="myBtn">Log in</a></li>
+                <li><a href="#" class="singup_btn myBtn_1">Sing Up</a></li>
+            </ul> -->
+            <!-- LogIn Modal -->
+            <div class="modal fade login-modal" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-top"> 
+                        <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>                   
+                            <h4>Sign In</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="usrname" placeholder="Enter Username Or email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control"  placeholder="Enter password">
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="" checked>Remember me</label>
+                                </div>
+                                <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer justify-content-between">
+                            <a href="#">Register</a>
+                            <a href="#">Forgot Your Password?</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End Log In Modal -->
+
+            <!-- Sign Up Modal -->
+            <div class="modal fade login-modal" id="myModal_1" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-top"> 
+                        <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>                   
+                            <h4>Sign Up</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="usrname" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Your E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control"  placeholder="Enter Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control"  placeholder="Confirm Password">
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="" checked>Remember me</label>
+                                </div>
+                                <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Sign Up</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!-- End Sign Up Modal -->
+        </div>
+
+    </nav><!-- END NAVBAR -->
+    <div class="intro-text">
+        <div class="container-fluid">
+            <div class="row">        
+                <div class="col-12 col-sm-8 col-md-12 col-lg-5 intro-wrapper">
+                    <h1 style="color:white;">Ag Drone technologies.</h1>
+                    <p style="color:white;">Aerial crop growth assessment and analysis system for agronomy solutions. . </p>
+                    <a href="#" class="btn btn-default button-l">Get Started</a>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="intro-video d-flex justify-content-end">
+                        <a href="https://www.youtube.com/watch?v=8Pf8heedkVQ" class="video-iframe"><i class="fa fa-play video-play" aria-hidden="true"></i></a>
+                    </div>                 
+                </div> 
+            </div>
+        </div>    
+    </div>
+</header>
+<!-- End Header -->
+
+<section id="wellcome" class="wellcome-03">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12  col-sm-12 col-md-12 col-lg-9 welcome-row-top text-center">
+                <p>We’re Tuyofly Ag Drone Technologies</p>   
+                <h2 class="title">We provide Usefull Drone Data Analysis And Agronomy Solutions to help you Grow Farm Businesses..</h2>
+            </div>               
+        </div> 
+        <div class="row welcome_bottom-text text-center">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 single-item res-padding">
+                <div class="bottom-content">
+                    <div class="about-icon about-icon-1">
+                       <img src="images/index-02/wellcome-icon-01.png" alt="">
+                    </div>
+                    <h3 class="subtitle_2">Growth Strategy</h3>
+                    <p>We provide Agronomy solutions to help you know your farm by providing you needed assistance to increase crop yeild.</p>
+                </div>
+            </div> 
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 single-item res-padding">
+                <div class="bottom-content">
+                    <div class="about-icon about-icon-2">
+                       <img src="images/index-02/wellcome-icon-02.png" alt="">
+                    </div>
+                    <h3 class="subtitle_2">Education and Support</h3>
+                    <p>We provide consultation services and education on Ag Technology Solutions: Agronomy Applied to Drone Data</p>
+                </div>
+            </div> 
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 single-item res-padding">
+                <div class="bottom-content">
+                    <div class="about-icon about-icon-3">
+                       <img src="images/index-02/wellcome-icon-03.png" alt="">
+                    </div>
+                    <h3 class="subtitle_2">Usable Product</h3>
+                    <p>We provide you with AI driven drone data analysis softwares on both web and mobile for crop analysis and support.</p>
+                </div>
+            </div> 
+                       
+        </div>                         
+    </div>
+</section>
+
+<section id="about" class="about-03">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 about-img">
+                <img src="images/index-03/tuabout.png" alt="">
+            </div> 
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 about-02-content">
+                <p>About Us</p>
+                <h2 class="title">We use serveral Aerial Data from your farm To<br> Solve Complicated Problems With our software Solutions.</h2>
+                <a href="#" class="btn btn-default button-2">learn more</a>
+            </div>                           
+        </div>                  
+    </div>
+
+    <div class="about-bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <img src="images/index-03/about-bottom-bg.jpg" alt="">
+                </div>   
+            </div>        
+
+            <div class="row about-sigle-text-box">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 about-left-text">
+                    <div class="about-single-box">
+                        <img src="images/index-03/about-b-01.jpg" alt="">
+                        <div class="about-single-text">
+                            <p>We're a Drone Ag Agency. Ask us about Ag Drones, Surveying and Crop Monitoring.</p>
+                        </div>
+                    </div>     
+                </div> 
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 about-right-text">
+                    <div class="about-single-box">
+                        <img src="images/index-03/about-b-02.jpg" alt="">
+                        <div class="about-single-text about-single-text-2">
+                            <p>We work with Farms and agencies through to small farms and startups in Agriculture and beyond.</p>
+                        </div>                            
+                    </div>     
+                </div>   
+            </div>
+        </div>             
+    </div>
+</section>
+
+<section id="services" class="services-03">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                <div class="services-content-left">
+                    <p class="service_sub_2">What We Do</p>
+                    <h2 class="title">We provide wide range<br>of Aerial Crop Analysis Software Solutions</h2>
+                    <p>At tuyofly, we believe in using technology to make work safer and more efficient. Our proven drone solutions simplify the collection</p>
+                    <p>and analysis of geospatial data, allowing professionals in surveying, agriculture, engineering and humanitarian aid to make better decisions, faster.</p>
+                    <a href="#" class="btn btn-default button-2">Work With Us</a>
+                </div>
+            </div> 
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 services-right-text">
+                <div class="row d-flex">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 services-single">
+                        <div class="services-box services-box-1 text-center">
+                            <div class="service-icon">
+                               <img src="images/index-03/services-icon-01.png" alt="">
+                            </div>
+                            <h3 class="subtitle_2">Design</h3>
+                            <p>Crop Observing, Crop Management.</p>  
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 services-single">
+                        <div class="services-box services-box-2 text-center">
+                            <div class="service-icon">
+                               <img src="images/index-03/services-icon-02.png" alt="">
+                            </div>
+                            <h3 class="subtitle_2">Analysis</h3>
+                            <p>Field analysis, Soil Analysis, Crop Assessment.</p>  
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 services-single">
+                        <div class="services-box services-box-3 text-center">
+                            <div class="service-icon">
+                               <img src="images/index-03/services-icon-03.png" alt="">
+                            </div>
+                            <h3 class="subtitle_2">Development</h3>
+                            <p>Data management, Cloud Storage.</p>  
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 services-single">
+                        <div class="services-box services-box-4 text-center">
+                            <div class="service-icon">
+                               <img src="images/index-03/services-icon-04.png" alt="">
+                            </div>
+                            <h3 class="subtitle_2">Photography</h3>
+                            <p>Hyper Spectral Imaging, 3D Mapping, Surveying.</p>  
+                        </div>
+                    </div>
+                </div>
+            </div>                           
+        </div>                  
+    </div>
+</section>
+
+
+<section id="count-area" class="count-03">
+    <div class="container-fluid">
+        <div class="count-all-item">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 count-single-box res-padding">
+                    <div class="single-count">
+                        <ul class="justify-content-center">
+                            <li>
+                                <div class="c-icon-box c-icon-box-1">
+                                    <img src="images/index-03/count-icon-1.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <span>Total Rating </span>
+                                <h3 class="title">5</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3  count-single-box res-padding">
+                    <div class="single-count">
+                        <ul class="justify-content-center">
+                            <li>
+                                <div class="c-icon-box c-icon-box-2">
+                                    <img src="images/index-03/count-icon-2.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <span>Total Platforms</span>
+                                <h3 class="title">3</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 count-single-box res-padding">
+                    <div class="single-count">
+                        <ul class="justify-content-center">
+                            <li>
+                                <div class="c-icon-box c-icon-box-3">
+                                    <img src="images/index-03/count-icon-3.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <span>Availble Country</span>
+                                <h3 class="title">120</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 count-single-box res-padding">
+                    <div class="single-count">
+                        <ul class="justify-content-center">
+                            <li>
+                                <div class="c-icon-box c-icon-box-4">
+                                    <img src="images/index-03/count-icon-4.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <span>Our Clients</span>
+                                <h3 class="title">750+</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 contact-us">
+                    <h2>Are You Ready? Let’s Work!</h2>   
+                    <a href="#" class="btn btn-default button-l">Contact Us</a>
+                </div>               
+            </div>             
+        </div>
+    </div>
+</section>
+<!-- //Section - Services End -->
+
+
+<section id="works" class="latest-work">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12  col-sm-9 col-md-9 col-lg-9 welcome-row-top header-title text-center">
+                    <p>Our Solution</p>   
+                <h2 class="title">Devices and Technlogy solutions we run on.</h2>
+            </div>               
+        </div> 
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 work-single-item res-padding">
+                <figure>
+                    <img src="images/index-03/works-01.jpg" alt="">
+                    <figcaption>
+                        <div class="w-caption-text">
+                            <h3 class="title"><a href="#">Desktop</a></h3>
+                            <span></span>
+                            <p>Analysis / AI</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div> 
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 work-single-item res-padding">
+                <figure>
+                    <img src="images/index-03/works-02.jpg" alt="">
+                    <figcaption>
+                        <div class="w-caption-text">
+                            <h3 class="title"><a href="#">Web App</a></h3>
+                            <span></span>
+                            <p>Analysis / AI</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 work-single-item res-padding">
+                <figure>
+                    <img src="images/index-03/works-03.jpg" alt="">
+                    <figcaption>
+                        <div class="w-caption-text">
+                            <h3 class="title"><a href="#">Mobile App</a></h3>
+                            <span></span>
+                            <p>Analysis / AI</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 work-single-item res-padding">
+                <figure>
+                    <img src="images/index-03/works-04.jpg" alt="">
+                    <figcaption>
+                        <div class="w-caption-text">
+                            <h3 class="title"><a href="#">Drones</a></h3>
+                            <span></span>
+                            <p>Analysis / AI</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>        
+        </div>                         
+    </div>
+</section>
+
+
+
+<section id="testimonial" class="testimonial-03">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12 text-center">  
+                <p>Testimonial</p>
+                <h2 class="title">some of our clients saying abotu us</h2>
+            </div>
+        </div>
+
+        <div class="row tesimonial-wapper">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 res-padding res-padding">
+                <div class="single-tesimonial">
+                    <div class="images-box">
+                        <img src="images/index-02/client-img-01.png" alt="">
+                        <div class="person-info">
+                            <h3>Jonathan Boye</h3>
+                            <span>Mega Farms</span>
+                        </div>
+                    </div>
+
+                    <div class="content-box">
+                        <p>“The eBee Ag is our main tool for precision agriculture. We have found it a remarkable tool for identifying issues within crops before problems become too severe.”</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 about-02-content res-padding res-padding">
+                <div class="single-tesimonial">
+                    <div class="images-box">
+                        <img src="images/index-02/client-img-02.png" alt="">
+                        <div class="person-info">
+                            <h3>Mr Adusei</h3>
+                            <span>Soko Aerial</span>
+                        </div>
+                    </div>
+
+                    <div class="content-box">
+                        <p>“ Our cooperation has been very good and has led to the mutual advancement of aerial imaging technology in field trials. Our tuyofly contacts have always been very supportive.”</p>
+                    </div>
+                </div>
+            </div>                           
+        </div> 
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                 <div class="testimoinal-btn">
+                   <a href="#" class="btn btn-default button-l">see More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="companis-logos" class="companis-logos-03">
+    <div class="container">
+        <div class="container-wapper">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12 text-center company-logo-title">
+                    <p>We Work With</p>
+                    <h2 class="title">Used And Trusted By The Ghana’s <br>Best Ag Companies</h2>    
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="companis-logo-wapper">
+                        <ul>
+                            <li><img src="images/index/company_logo-01.png" alt=""></li>
+                            <li><img src="images/index/company_logo-02.png" alt=""></li>
+                            <li><img src="images/index/company_logo-03.png" alt=""></li>
+                            <li><img src="images/index/company_logo-04.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>                  
+            </div>               
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-03">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 contact-info-wraper">
+                <div class="contact-info-box d-flex">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                        <div class="contact-3c-box">
+                            <h2 class="title">More Information</h2>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i><p>Adress: 135 Hewale St. Awudome,<br> Accra, Ghana</p></li>
+                                <li><i class="fa fa-phone"></i> <p>Phone: +233 55 588 3284</p></li>
+                                <li><i class="fa fa-envelope"></i> <p>Email: tuyofly@gmail.com</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <!-- Google Map -->
+                        <div class="gmap">
+                            <div id="map"></div>
+                        </div><!-- Ends: .gmap -->
+                    </div>
+                </div> 
+            </div>              
+        </div>                  
+    </div>
+</section>
+
+
+
+<footer id="footer" class="footer-03">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-8 footer-link-item">
+                <div class="row footer3-link-row">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 res-padding">
+                        <h3 class="subtitle_1">Solutions</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> Apps Developer</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> Graphic Design</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> PHP Tranning</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> IOS Developer</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> App Design</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 res-padding">
+                        <h3 class="subtitle_1">Links</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> About</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> Blog</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> Tean</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> Portfolio</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> Contact</a></li>
+                        </ul>
+                    </div>
+                </div>  
+                <div class="row footer3-link-row">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 res-padding">
+                        <h3 class="subtitle_1">Socials</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> Facebook</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> Twitter</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> Instagram</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> Youtube</a></li>
+                        </ul>
+                    </div>  
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 res-padding">
+                        <h3 class="subtitle_1">Locations</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-angle-right link-icon"></i> Accra</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 footer-contact-form res-padding">
+                <h3 class="subtitle_1">Have Farm On Your Mind? Drop Your Details Here.</h3>
+                <form action="#">
+                    <div class="form-group form-group-1">
+                        <input type="name" class="form-control person-name" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group form-group-1">
+                        <input type="email" class="form-control person-email" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group person-comment">
+                        <textarea class="form-control" id="comment" placeholder="Start Writeing"></textarea>
+                    </div>
+                    <div class="submit-btn">
+                        <button type="submit" class="text-center subscribe-icon">Send now</button>
+                    </div>
+                </form>
+            </div>
+        </div>       
+    </div>   
+     <div class="row copyright-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 copyright text-center d-flex justify-content-between">
+                    <a class="logo" href="index.html"><img src="images/tuyologo.png" alt="logo"></a>
+                    <p>Copyright &copy; 2018 All rights reserved. <span>tuyofly</span></p>
+                </div>
+            </div>
+        </div>
+    </div>    
+</footer><!-- ./ End Footer Area-->
+
+    <!-- Optional JavaScript -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/map-helper.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+<!-- Mirrored from getnajmul.com/theme/mascreative/index-03.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Jul 2018 18:20:03 GMT -->
+</html>
+
